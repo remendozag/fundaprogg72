@@ -1,0 +1,12 @@
+Funcion operar (num1,num2)
+	suma<-num1+num2
+	Escribir "La suma es:", suma
+Fin Funcion
+Algoritmo Funciones
+	Definir numero1, numero2 Como Entero
+	Escribir "Digite número1:"
+	Leer numero1
+	Escribir "Digite número2:"
+	Leer numero2
+operar(numero1,numero2) //INVOCACION FUNCION
+FinAlgoritmo

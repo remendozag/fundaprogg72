@@ -1,0 +1,15 @@
+#ENTRADAS
+codigoProducto=int(input())
+nombreProducto=input()
+cantidadComprada=int(input())
+valorUnitario=float(input())
+#PROCESO
+valorProductoSinIVA=cantidadComprada*valorUnitario
+Iva=0.19
+valorIVA=valorProductoSinIVA*Iva
+valorFinalProducto=valorProductoSinIVA+valorIVA
+#SALIDAS
+print(codigoProducto)
+print(nombreProducto)
+print(valorProductoSinIVA)
+print(valorFinalProducto)
